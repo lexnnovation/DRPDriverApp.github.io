@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ffb417;
+}
+
+body {
+  max-width: 80%;
+  margin: auto;
+}
+
+.logo_BG {
+  display: block;
+  margin: 10% auto 20px;
+  width: 50%;
+  background-color: #ffb417;
+}
+
+.title {
+  font-family: "Montserrat", Arial, sans-serif;
+  text-align: center;
+  margin: 10%;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.appstore {
+  width: 40%;
+}
+
+.playstore {
+  width: 40%;
+}
+
+.icons {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .playstore,
+  .appstore {
+    width: 100%;
+  }
+
+  .title {
+    margin: 7%;
+    font-size: 15px;
+  }
+}
